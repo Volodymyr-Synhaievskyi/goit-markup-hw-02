@@ -3,7 +3,7 @@
   | Base styles
   |============================
 */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900");
+@import url("https://font.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900");
 
 :root {
   --text: #434455;
@@ -23,8 +23,22 @@
 }
 
 body {
-  /*body*/
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
+
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+  --dark: #2e2f42;
 }
 
 /*reset styles*/
