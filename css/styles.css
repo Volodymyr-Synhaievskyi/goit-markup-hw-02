@@ -85,13 +85,18 @@ body {
   color: var(--pressed-state);
 }
 
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--pressed-state)
+}
+
 .nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: inherit;
-  color: var(--navy-blue);
+  color: var(--dark);
 }
 
 /* paragraphs */
