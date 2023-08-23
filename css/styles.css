@@ -33,7 +33,8 @@ body {
 }
 
 .head-two {
-  color: #2E2F42;
+  color: #2e2f42;
+
   text-align: center;
   font-family: inherit;
   font-size: 36px;
@@ -100,7 +101,7 @@ body {
 
 /* header */
 .logo {
-  color: var(--primary-brand);
+  color: var(#4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
