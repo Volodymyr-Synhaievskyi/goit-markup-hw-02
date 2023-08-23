@@ -32,7 +32,7 @@ body {
 
 .head-two {
   color: var(--dark);
-
+  background-color: #F4F4FD;
   text-align: center;
   font-family: inherit;
   font-size: 36px;
