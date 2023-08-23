@@ -6,7 +6,7 @@ c
   --primary-brand: #4D5AE5;
   --acsent: #E7E9FC;
   --light: #F4F4FD;
-  --dark: #2E2F42;
+  --dark: #2e2f42;
   --pressed-state: #404BBF;
   --white: #fff;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .head-two {
-  color: #2e2f42;
+  color: var(--dark);
 
   text-align: center;
   font-family: inherit;
@@ -101,14 +101,14 @@ body {
 
 /* header */
 .logo {
-  color: var(#4d5ae5);
+  color: var(--primary-brand);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none
+  text-decoration: none;
 }
 
 .partlogo-header {
