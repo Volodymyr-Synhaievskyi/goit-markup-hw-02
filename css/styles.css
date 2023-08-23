@@ -172,6 +172,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--primary-brand);
   background-color: var(--light);
+  cursor: pointer;
 }
 
 .portfolio-button:hover,
