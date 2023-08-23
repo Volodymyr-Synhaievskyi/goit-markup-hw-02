@@ -185,8 +185,12 @@ body {
 /* footer */
 .footer {
   background-color: var(--dark);
+
 }
 
 .footer-text {
   color: var(--cloud);
+  line-height: 1.5;
+  color: var(--light);
+  letter-spacing: 0.02em
 }
